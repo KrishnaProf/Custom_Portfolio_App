@@ -13,7 +13,7 @@ const Projects = () => {
       </h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam
-        iste repellat consequatur libero reiciendis, blanditiis accusantium.
+        iste repellat consequatur libero reiciendis, blanditiis accusantium. Restart
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem img={Crypto} title="Crypto App" />

@@ -1,4 +1,3 @@
-
 import ProjectItem from "./ProjectItem";
 import Property from "../assets/Property.jpg";
 import FarmTube from "../assets/FarmTube.jpg";
@@ -13,14 +12,11 @@ const Projects = () => {
         Projects
       </h1>
       <p>
-<<<<<<< HEAD
         These projects showcase our expertise in building responsive and dynamic
         web applications using modern technologies like React, Tailwind CSS, and
-        TypeScript.
-=======
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam
-        iste repellat consequatur libero reiciendis, blanditiis accusantium. Restart
->>>>>>> 062300f87dc44eb3d10190cea23ae61a0fae4f75
+        TypeScript. ======= Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Id odit ullam iste repellat consequatur libero reiciendis,
+        blanditiis accusantium. Restart
       </p>
       <br />
       <div className="grid sm:grid-cols-2 gap-12">

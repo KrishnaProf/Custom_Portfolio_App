@@ -1,6 +1,7 @@
-import React from "react";
+
 import ProjectItem from "./ProjectItem";
 import Property from "../assets/Property.jpg";
+import FarmTube from "../assets/FarmTube.jpg";
 import Crypto from "../assets/Crypto.jpg";
 import Netflix from "../assets/Netflix.jpg";
 import Twitch from "../assets/Twitch.png";
@@ -12,14 +13,24 @@ const Projects = () => {
         Projects
       </h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam
-        iste repellat consequatur libero reiciendis, blanditiis accusantium.
+        These projects showcase our expertise in building responsive and dynamic
+        web applications using modern technologies like React, Tailwind CSS, and
+        TypeScript.
       </p>
+      <br />
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={Crypto} title="Crypto App" />
-        <ProjectItem img={Property} title="Property App" />
-        <ProjectItem img={Netflix} title="Netflix App" />
-        <ProjectItem img={Twitch} title="Twitch App" />
+        <ProjectItem
+          img={FarmTube}
+          title="FarmTube App"
+          link="https://github.com/KrishnaProf/FarmTube"
+        />
+        <ProjectItem
+          img="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          title="Best Eats App"
+          link="https://github.com/KrishnaProf/Best_eat"
+        />
+        <ProjectItem img={Netflix} title="Netflix App" link="" />
+        <ProjectItem img={Twitch} title="Twitch App" link="" />
       </div>
     </div>
   );

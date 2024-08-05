@@ -1,4 +1,3 @@
-import React from "react";
 import portfolio_bg from "../assets/portfolio_bg.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
@@ -35,10 +34,14 @@ export default function Main() {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" />
+            <a href="https://x.com/leela_krishna12">
+              <FaTwitter className="cursor-pointer" />
+            </a>
             <FaFacebook className="cursor-pointer" />
             <FaInstagram className="cursor-pointer" />
-            <FaLinkedin className="cursor-pointer" />
+            <a href="https://www.linkedin.com/in/leela-krishna09/">
+              <FaLinkedin className="cursor-pointer" />
+            </a>
           </div>
         </div>
       </div>

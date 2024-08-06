@@ -1,5 +1,3 @@
-
-
 const WorkItem = ({ year, title, duration, description }) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-1 border-stone-200 ">

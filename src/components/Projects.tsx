@@ -1,7 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import Property from "../assets/Property.jpg";
 import FarmTube from "../assets/FarmTube.jpg";
-import Crypto from "../assets/Crypto.jpg";
 import Netflix from "../assets/Netflix.jpg";
 import Twitch from "../assets/Twitch.png";
 

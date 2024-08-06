@@ -1,4 +1,14 @@
-const WorkItem = ({ year, title, duration, description }) => {
+const WorkItem = ({
+  year,
+  title,
+  duration,
+  description,
+}: {
+  year: any;
+  title: any;
+  duration: any;
+  description: any;
+}) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-1 border-stone-200 ">
       <li className="mb-10 ml-4 ">

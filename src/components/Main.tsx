@@ -29,7 +29,7 @@ export default function Main() {
               ]}
               wrapper="div"
               cursor={true}
-              style={{ fontSize: "1em", paddingleft: "5px" }}
+              style={{ fontSize: "1em", paddingLeft: "5px" }}
               repeat={Infinity}
             />
           </h2>

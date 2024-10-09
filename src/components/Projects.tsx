@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem";
 import FarmTube from "../assets/FarmTube.jpg";
-import Netflix from "../assets/Netflix.jpg";
-import Twitch from "../assets/Twitch.png";
+import Spotify from "../assets/Spotify.png";
+import Todopic from "../assets/Todopic.png";
 
 const Projects = () => {
   return (
@@ -19,17 +19,29 @@ const Projects = () => {
       <br />
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
-          img={FarmTube}
-          title="FarmTube App"
-          link="https://github.com/KrishnaProf/FarmTube"
+          img={Spotify}
+          title="Spotify App"
+          GitHublink="https://github.com/KrishnaProf/Spotify_Clone"
+          Applink="https://spotify-2z12.onrender.com/"
         />
         <ProjectItem
           img="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           title="Best Eats App"
-          link="https://github.com/KrishnaProf/Best_eat"
+          GitHublink="https://github.com/KrishnaProf/Best_eat"
+          Applink=""
         />
-        <ProjectItem img={Netflix} title="Netflix App" link="" />
-        <ProjectItem img={Twitch} title="Twitch App" link="" />
+        <ProjectItem
+          img={FarmTube}
+          title="FarmTube App"
+          GitHublink="https://github.com/KrishnaProf/FarmTube"
+          Applink=""
+        />
+        <ProjectItem
+          img={Todopic}
+          title="Todo App"
+          GitHublink="https://github.com/KrishnaProf/To_Do_List_App"
+          Applink="https://to-do-list-app-g0s6.onrender.com/"
+        />
       </div>
     </div>
   );
